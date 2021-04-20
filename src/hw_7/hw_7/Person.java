@@ -1,4 +1,5 @@
-package hw7;
+package hw_7;
+
 
 public class Person {
     private String name;
@@ -11,13 +12,13 @@ public class Person {
         this.gender = gender;
     }
 
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
+//    public String getName() {
+//        return name;
+//    }
+//
+//    public void setName(String name) {
+//        this.name = name;
+//    }
 
     public int getAge() {
         return age;
@@ -27,13 +28,13 @@ public class Person {
         this.age = age;
     }
 
-    public Gender getGender() {
-        return gender;
-    }
-
-    public void setGender(Gender gender) {
-        this.gender = gender;
-    }
+//    public Gender getGender() {
+//        return gender;
+//    }
+//
+//    public void setGender(Gender gender) {
+//        this.gender = gender;
+//    }
 
     @Override
     public String toString() {
